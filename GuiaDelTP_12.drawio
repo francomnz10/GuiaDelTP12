@@ -1,9 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="Página-1" id="5fq2OQr3jq5WrRJO03WY">
-    <mxGraphModel>
+    <mxGraphModel dx="703" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Foxf44cuT000VNVh36QE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foxf44cuT000VNVh36QE-1" target="Foxf44cuT000VNVh36QE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-1" value="inicio" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="370" y="40" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foxf44cuT000VNVh36QE-2" target="Foxf44cuT000VNVh36QE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-2" value="float = celsius;&lt;div&gt;float=fahrenheit;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foxf44cuT000VNVh36QE-3" target="Foxf44cuT000VNVh36QE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-3" value="celsius =0;&lt;div&gt;fahrenheit = 0;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foxf44cuT000VNVh36QE-4" target="Foxf44cuT000VNVh36QE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-4" value="&quot;Ingres los grados en celsius &quot;" style="shape=display;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="325" y="315" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foxf44cuT000VNVh36QE-5" target="Foxf44cuT000VNVh36QE-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="400" />
+              <mxPoint x="455" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-5" value="celsius" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foxf44cuT000VNVh36QE-12" target="Foxf44cuT000VNVh36QE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-12" value="fahrenheit = (celsius * 9) / 5 + 32" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foxf44cuT000VNVh36QE-14" target="Foxf44cuT000VNVh36QE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-14" value="&quot;Los grandos celcius que ingreso en fahrenheit son: &quot;, fahrenheit&amp;nbsp;" style="shape=display;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="345" y="570" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Foxf44cuT000VNVh36QE-16" value="fin&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="390" y="690" width="130" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

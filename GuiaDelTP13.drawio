@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="Página-1" id="CbbUDcgyqsu21pKo2U6P">
-    <mxGraphModel>
+    <mxGraphModel dx="703" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="btbyRkLQHQcMxaeQujv1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="btbyRkLQHQcMxaeQujv1-1" target="btbyRkLQHQcMxaeQujv1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-1" value="inicio" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="btbyRkLQHQcMxaeQujv1-2" target="btbyRkLQHQcMxaeQujv1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="btbyRkLQHQcMxaeQujv1-2" target="btbyRkLQHQcMxaeQujv1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-2" value="&quot;Ingrese los grados en Celsius: &quot;" style="shape=display;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="285" y="340" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="btbyRkLQHQcMxaeQujv1-3" target="btbyRkLQHQcMxaeQujv1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-3" value="float = celsius;&lt;div&gt;float = rankine;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="btbyRkLQHQcMxaeQujv1-5" target="btbyRkLQHQcMxaeQujv1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-5" value="celsius = 0.0;&lt;div&gt;rankine = 0.0;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-8" value="celsius" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="590" y="345" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="btbyRkLQHQcMxaeQujv1-10" target="btbyRkLQHQcMxaeQujv1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-10" value="rankine = (celsius * 9) / 5 + 491,67" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="470" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="btbyRkLQHQcMxaeQujv1-12" target="btbyRkLQHQcMxaeQujv1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-12" value="&quot;Los grados en rankine es: &quot;, rankine" style="shape=display;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="285" y="585" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-14" value="fin" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="330" y="700" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="btbyRkLQHQcMxaeQujv1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="btbyRkLQHQcMxaeQujv1-14" target="btbyRkLQHQcMxaeQujv1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

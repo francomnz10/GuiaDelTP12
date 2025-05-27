@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="Página-1" id="I8lDm3xSKCM9H2Hy3U88">
-    <mxGraphModel>
+    <mxGraphModel dx="703" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RSxWertvsvywh0RpWsPh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RSxWertvsvywh0RpWsPh-1" target="RSxWertvsvywh0RpWsPh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-1" value="inicio" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RSxWertvsvywh0RpWsPh-2" target="RSxWertvsvywh0RpWsPh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-2" value="float = prestamo;&lt;div&gt;int = añosAPagar;&lt;/div&gt;&lt;div&gt;float totalPagar;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RSxWertvsvywh0RpWsPh-4" target="RSxWertvsvywh0RpWsPh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-4" value="prestamo =0.0;&lt;div&gt;añosAPagar = 0&lt;/div&gt;&lt;div&gt;totalPagar=0.0;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RSxWertvsvywh0RpWsPh-6" target="RSxWertvsvywh0RpWsPh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-6" value="&quot;Ingrese el monto de su prestamo: &quot;" style="shape=display;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="295" y="360" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-8" value="prestamo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="600" y="365" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RSxWertvsvywh0RpWsPh-10" target="RSxWertvsvywh0RpWsPh-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-10" value="&quot;A cuantos años lo quiere sacar: &quot;" style="shape=display;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="295" y="490" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=120;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RSxWertvsvywh0RpWsPh-8" target="RSxWertvsvywh0RpWsPh-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="460" />
+              <mxPoint x="415" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RSxWertvsvywh0RpWsPh-17" target="RSxWertvsvywh0RpWsPh-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="580" />
+              <mxPoint x="421" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-17" value="añosAPagar" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="600" y="495" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RSxWertvsvywh0RpWsPh-18" target="RSxWertvsvywh0RpWsPh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-18" value="totolPagar = prestamo + (prestamo * 0,27 * añosAPagar)&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="610" width="241" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RSxWertvsvywh0RpWsPh-20" target="RSxWertvsvywh0RpWsPh-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-20" value="&quot;Su total a pagar sera: &quot;,totalAPagar" style="shape=display;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310.5" y="730" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RSxWertvsvywh0RpWsPh-22" value="fin" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="355.5" y="840" width="130" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
